@@ -122,7 +122,7 @@ In a one-to-many relationship, a single record in Table A can be related to one 
 
 #### **Many-to-Many (M) Relationship**
 
-In a many-to-many relationship, records in Table A can be related to multiple records in Table B, and vice versa. Since relational databases don't directly support many-to-many relationships, they are required to use a junction (or linking) table to facilitate the connection.
+In a many-to-many relationship, records in Table A can be related to multiple records in Table B, and vice versa. Since relational databases don't directly support many-to-many relationships, they are required to use a junction (or association) table to facilitate the connection.
 
 **Example:**
 
@@ -139,7 +139,7 @@ In a many-to-many relationship, records in Table A can be related to multiple re
     
 *   **One-to-Many**: A single record in one table is linked to multiple records in another table.
     
-*   **Many-to-Many**: Multiple records in one table are linked to multiple records in another table, usually implemented with a junction table.
+*   **Many-to-Many**: Multiple records in one table are linked to multiple records in another table,  **REQUIRES** a junction table.
     
 
 #### **Steps to Create an ERD**
